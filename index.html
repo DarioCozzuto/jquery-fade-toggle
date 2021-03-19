@@ -1,0 +1,21 @@
+ <!DOCTYPE html>
+<html>
+<title>jquery fade toggle</title>
+<script src="jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function(){
+
+    $("img").hide();
+        
+        $("button").click(function(){
+            $("img").fadeToggle(1000);
+        });
+});
+
+</script>
+<body>
+    <img src="unnamed.jpg" alt="">
+    <br>
+    <button>Fade Toggle</button>
+</body>
+</html> 
